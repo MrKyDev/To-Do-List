@@ -1,4 +1,4 @@
-# Make a Reminder For Everyday Work or Activity
+
 <h1>"Each task you complete is a step toward your dreams—make today count."
   <br>
 # Main UI

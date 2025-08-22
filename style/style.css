@@ -28,7 +28,6 @@ body {
   background-image: linear-gradient(50deg, #000000a9, #030303);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   letter-spacing: 1px;
 }
 
@@ -39,7 +38,6 @@ body {
     font-size: 1.8rem;
   }
 }
-
     .todo-container {
       max-width: 600px;
       margin: 0 auto;
@@ -48,7 +46,6 @@ body {
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
-
     .todo-container input,
     .todo-container button {
       padding: 0.75rem;
@@ -57,11 +54,9 @@ body {
       border-radius: 8px;
       margin-right: 0.5rem;
     }
-
     .todo-container input {
       width: 65%;
     }
-
     .todo-container button {
       cursor: pointer;
       background: #0078d7;
@@ -69,11 +64,9 @@ body {
       border: none;
       transition: background 0.3s ease;
     }
-
     .todo-container button:hover {
       background: #005a9e;
     }
-
     .saved-list {
       position: absolute;
       background: #fff;
@@ -84,7 +77,6 @@ body {
       cursor: move;
       user-select: none;
     }
-
     .saved-list h3 {
       margin-top: 0;
       font-size: 1.1rem;
@@ -92,13 +84,11 @@ body {
       border-bottom: 1px solid #eee;
       padding-bottom: 0.5rem;
     }
-
     .saved-list ul {
       list-style: none;
       padding: 0;
       margin: 0.5rem 0;
     }
-
     .saved-list li {
       background: #f9f9f9;
       margin: 0.3rem 0;
@@ -106,14 +96,12 @@ body {
       border-radius: 6px;
       font-size: 0.95rem;
     }
-
     .saved-list small {
       display: block;
       font-size: 0.8rem;
       color: #777;
       margin-top: 0.5rem;
     }
-
     .saved-list button {
       margin-top: 0.5rem;
       background: #e74c3c;
@@ -124,7 +112,6 @@ body {
       cursor: pointer;
       font-size: 0.85rem;
     }
-
     .saved-list button:hover {
       background: #c0392b;
     }
@@ -140,13 +127,11 @@ body {
     bottom: 0;
     left: 0;
     }
-
     .footer .credit {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 400;
     }
-
     .footer .credit span {
     color: var(--accent);
     font-weight: bold;

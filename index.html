@@ -9,14 +9,19 @@
     <script src="script/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h2>To-Do List</h2>
-        <input type="text" id="taskInput" placeholder="Add a new task">
-        <button onclick="addTask()">Add</button>
-        <ul id="taskList"></ul>
-    </div>
-    <section class="footer">
-        <div class="credit">Created by <span>KyDev</span> | All Rights Reserved</div>
-    </section>
+ <h1>To Do List</h1>
+
+  <div class="todo-container">
+    <input type="text" id="todo-input" placeholder="Enter a task...">
+    <button onclick="addTask()">Add Task</button><br>
+    <button onclick="saveList()">Save List</button>
+    <ul id="todo-list"></ul>
+  </div>
+    <section class="footer"> 
+    <a href="https://github.com/MrKyDev" target="_blank">
+      <div class="credit">Created by <span>KyDev</span> | ALL RIGHTS RESERVED ©</div>
+    </a>
+  </section>
+<script src="script/script.js"></script>
 </body>
 </html>
